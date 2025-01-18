@@ -1,0 +1,48 @@
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"], button {
+    margin-top: 20px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="password"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+#greeting {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
