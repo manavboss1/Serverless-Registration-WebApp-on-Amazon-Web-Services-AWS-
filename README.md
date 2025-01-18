@@ -25,8 +25,10 @@ Setup
 Clone the repository:
 
 bash
-git clone https://github.com/your-username/a-monk-in-cloud.git
-cd a-monk-in-cloud
+git clone https://github.com/your-username/manav.git
+
+cd manav
+
 Deploy the AWS Lambda functions and DynamoDB tables as described in the lambda_functions directory.
 
 Update the API_INVOKE_URL in script.js with your API Gateway endpoint.
